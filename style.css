@@ -113,6 +113,7 @@ font-size: 20px;
   left: 7.7rem;
   width: 100%;
   opacity: .6;
+  cursor: pointer;
 }
 .fa-angle-double-right{
   position: absolute;
@@ -153,4 +154,34 @@ transition: transform 1s ease-in-out;
 .open{
   transform: scaleX(1.1);
   
+}
+
+/* media query for iphone x  */
+
+@media screen and (max-width:375px){
+  .calc-body{
+    margin: 3rem -1rem;
+    padding: 10px;
+    width: 100%; 
+  }
+  .main{width: 74%;}
+
+}
+
+/* media query for Galaxy fold goes here */
+@media screen and (max-width:280px){
+  .main{width: 87%;}
+  .calc-body{ margin: 2rem -0.4rem; 
+   }
+
+  .scincetific{
+ left: 6.5rem;
+ top: 9.5rem;
+}
+
+.name{
+  top: 3rem;
+  font-size: 15px;
+  }
+
 }
