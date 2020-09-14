@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+body{
+  background: #07689F; 
+} 
+
+.main{
+  background: #07689F; 
+  width: 40%;
+  height: 83vh;
+  margin: 0px auto;
+  position: relative;
+}
+.calc-body{
+  background:#07689f;
+ position: absolute;
+  margin: 2rem 6rem;
+  padding: 10px;
+  width: 50%;
+  height: auto;
+  box-shadow: inset -5px -5px 5px #262627, inset 5px 5px 5px rgba(17, 17, 17, 0.4);
+}
+.display{
+    background: #07689F;
+    box-shadow: inset -5px -5px 5px #262627, inset 5px 5px 5px rgba(17, 17, 17, 0.4);
+ margin: 4px 2rem;
+ height: 6rem;
+ border-radius: 10px;
+
+}
+.A-display{
+    color: white;
+    /* padding: 4px; */
+    padding-left: 6px;
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+  overflow: auto;
+}
+.B-display{
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    overflow: auto;
+    position: relative;
+    width: auto;
+    /* padding-left: 6px; */
+    font-size: 20px;
+    text-align: right;
+}
+.groupBtn{
+  margin: 4px 2rem;
+}
+.groupBtn .btn{
+  background:linear-gradient(270deg, rgb(72, 141, 219), rgb(127, 181, 235));
+  width:23%;
+  padding: 12px;
+  color: white;
+  box-shadow: 1px 1px 3px rgb(72, 141, 219);
+  margin: 2px 0px;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+.groupBtn .btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+#btn2:focus, #btn1:focus, #btn3:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+#btn2, #btn1{
+  width:34.5%;
+  background:linear-gradient(270deg, rgb(72, 141, 219), rgb(127, 181, 235));
+  padding: 12px;
+  color: white;
+  margin: 1px;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(72, 141, 219);
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+#btn3{
+  width:47%;
+  background:linear-gradient(270deg, rgb(72, 141, 219), rgb(127, 181, 235));
+  padding: 12px;
+  color: white;
+  margin: 1px;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(72, 141, 219);
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.name{
+color: white;
+position: absolute;
+font-family: 'Lobster', cursive;
+opacity: .1;
+left: 3.5rem;
+top: 2.5rem;
+font-size: 20px;
+}
+.scincetific{
+  color: white;
+  position: absolute;
+  transform: rotate(270deg);
+  top: 8rem;
+  left: 7.7rem;
+  width: 100%;
+  opacity: .6;
+}
+.fa-angle-double-right{
+  position: absolute;
+  color: white;
+  font-size: 38px;
+  cursor: pointer;
+  top: 13.5rem;
+  opacity: .6;
+}
+.fa-angle-double-right:hover{
+  opacity: .9;
+}
+.extra-info{
+  background:#07689f;
+padding: 14px;
+position: absolute;
+width: 38%;
+top: 12rem;
+left: 2.7rem;
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 1s ease-in-out;
+}
+.extra-info .btn{
+  background:linear-gradient(270deg, rgb(72, 141, 219), rgb(127, 181, 235));
+  padding: 8px;
+  color: white;
+  margin: 1.5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(72, 141, 219);
+  font-weight: bolder;
+  font-size: 18px;
+}
+.open{
+  transform: scaleX(1.1);
+  
+}
