@@ -203,4 +203,11 @@ transition: transform 1s ease-in-out;
    }
 
  }
+
+ @media screen and (max-width:540px){
+   .main{min-width: 60%;}
+
+ 
+ }
+
  
