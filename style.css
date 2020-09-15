@@ -166,16 +166,20 @@ transition: transform 1s ease-in-out;
   }
   .main{width: 74%;}
 
+  .scincetific{
+    margin-left: -1rem;
+   }
+
 }
 
 /* media query for Galaxy fold goes here */
 @media screen and (max-width:280px){
   .main{width: 87%;}
-  .calc-body{ margin: 2rem -0.4rem; 
+  .calc-body{ margin: 2rem -0.5rem; 
    }
 
   .scincetific{
- left: 6.5rem;
+ margin-left: -1.5rem;
  top: 9.5rem;
 }
 
@@ -185,3 +189,18 @@ transition: transform 1s ease-in-out;
   }
 
 }
+
+/* MEDIA QUERY FOR IPAD GOES HERE  */
+ @media screen and (max-width:768px){
+  .calc-body{
+    margin: 3rem auto;
+    padding: 10px;
+    width: 100%; 
+  }
+  .scincetific{
+    left: 8.4rem;
+    
+   }
+
+ }
+ 
